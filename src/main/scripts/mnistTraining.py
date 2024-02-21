@@ -3,7 +3,7 @@ from src.main.classes.modelArchitectures.CNN import CNN
 
 if __name__ == "__main__": 
 
-    RESULTS_PATH_BASE = "models/MNIST/WGAN_GP/"    
+    RESULTS_PATH_BASE = "models/MNIST/CNN/"    
     SAVED_MODEL_PATH = RESULTS_PATH_BASE + "saved_models/"
     ARCHITECTURE_DIAGRAM_PATH = RESULTS_PATH_BASE + "visualizations/architecture/"
     METRICS_SAVE_PATH = RESULTS_PATH_BASE + "visualizations/results/"
